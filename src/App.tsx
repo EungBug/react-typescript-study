@@ -3,6 +3,7 @@ import React from 'react';
 import Greetings from './Greetings';
 import Counter from 'Counter';
 import MyForm from 'MyForm';
+import ReducerSample from 'ReducerSample';
 
 /**
  * Greetings component
@@ -17,10 +18,10 @@ import MyForm from 'MyForm';
 
 /*
  Counter component
- */
 const App: React.FC = () => {
   return <Counter />;
 };
+ */
 
 /**
  * MyForm component
@@ -31,5 +32,12 @@ const App: React.FC = () => {
   return <MyForm onSubmit={onSubmit} />;
 };
  */
+
+/**
+ * ReducerSample component
+ */
+const App: React.FC = () => {
+  return <ReducerSample />;
+};
 
 export default App;
